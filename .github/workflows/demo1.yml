@@ -13,6 +13,8 @@ on:
       - main
       - 'dev-*'
       - 'dev/**'
+    paths-ignore:
+      - '.github/workflows/*'  
 jobs:
   deploy:
     runs-on: ubuntu-latest
