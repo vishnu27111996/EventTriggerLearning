@@ -2,7 +2,8 @@ name: Events Demo 1
 on: 
   pull_request:
     types:
-      opened
+      - opened
+      - closed
   workflow_dispatch:
 jobs:
   deploy:
